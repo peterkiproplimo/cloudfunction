@@ -26,7 +26,7 @@ repositories {
 azurefunctions {
     resourceGroup = 'acs-dmp'
     appName = 'newacsdmpfunction'
-    pricingTier = 'Pay-As-You-Go'
+    pricingTier = 'ASP-acsdmp-a421'
     region = 'East US'
     runtime {
       os = 'Linux'
