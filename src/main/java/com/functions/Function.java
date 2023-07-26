@@ -72,7 +72,7 @@ public class Function {
             throw new Exception("error");
         }
 
-        // Parse query parameter
+        // Parse query parameterada
         final String query = request.getQueryParameters().get("name");
         final String name = request.getBody().orElse(query);
 
