@@ -25,8 +25,8 @@ repositories {
 
 azurefunctions {
     resourceGroup = 'acs-dmp'
-    appName = 'newacsdmpfunction'
-    pricingTier = 'ASP-acsdmp-a421'
+    appName = 'acs-dmp-function'
+    pricingTier = 'Basic'
     region = 'East US'
     runtime {
       os = 'Linux'
@@ -35,6 +35,8 @@ azurefunctions {
     auth {
       type = 'azure_cli'
     }
+    
 
     localDebug = "transport=dt_socket,server=y,suspend=n,address=5005"
 }
+
